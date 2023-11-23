@@ -7,8 +7,9 @@ export default function Footer() {
       <p>
         <a
           className="credit-link"
-          href="https://github.com/lisacandemyr/API-weather-app"
+          href="https://github.com/lisacandemyr/react-weather-app"
           target="_blank"
+          rel="noreferrer"
         >
           Open-source code
         </a>{" "}
@@ -17,6 +18,7 @@ export default function Footer() {
           className="credit-link"
           href="https://www.netlify.com"
           target="_blank"
+          rel="noreferrer"
         >
           Netlify
         </a>
