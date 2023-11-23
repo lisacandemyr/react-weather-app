@@ -50,13 +50,13 @@ export default function Weather() {
           />
           <span className="temperature">{weatherData.temperature}</span>{" "}
           <span className="units">
-            <a href="#" className="celsius-link active">
+            <button href="" className="celsius-link active">
               °C
-            </a>{" "}
+            </button>{" "}
             <span className="divider"> | </span>
-            <a href="#" className="fahrenheit-link">
+            <button href="#" className="fahrenheit-link">
               °F
-            </a>
+            </button>
           </span>
         </h3>
       </section>
