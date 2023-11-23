@@ -1,0 +1,144 @@
+.search-bar {
+  align-items: center;
+  display: flex;
+}
+
+.form-control {
+  background: var(--primary-color-light);
+  border-radius: 5px 0 0 5px;
+  min-width: 150px;
+}
+
+.search-city {
+  background: var(--primary-color-dark);
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: var(--primary-color-light);
+  padding: 6px 10px;
+  text-transform: lowercase;
+}
+
+.current-location {
+  background: var(--primary-color-dark);
+  border: none;
+  border-radius: 50%;
+  color: var(--primary-color-light);
+  font-size: 20px;
+  margin-left: 300px;
+  padding: 10px 12px;
+}
+
+.search-city:hover,
+.current-location:hover {
+  background: var(--primary-color-light);
+  border: none;
+  color: var(--primary-color-dark);
+  transition: all 500ms ease-in-out;
+}
+
+header {
+  align-items: center;
+  display: flex;
+}
+
+h1 {
+  color: var(--primary-color-light);
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+h2 {
+  color: var(--primary-color-light);
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 15px;
+}
+
+.description {
+  color: var(--primary-color-light);
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+ul {
+  background: rgba(245, 245, 245, 0.2);
+  border-radius: 5px;
+  color: var(--primary-color-light);
+  font-size: 20px;
+  font-weight: 300;
+  list-style: none;
+  margin-left: 75px;
+  padding: 15px;
+  text-align: center;
+  width: 150px;
+}
+
+h3 {
+  color: var(--primary-color-light);
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.big-icon {
+  width: 80px;
+  position: relative;
+  top: -5px;
+  left: 13px;
+}
+
+.divider {
+  font-size: 60px;
+  font-weight: 200;
+  position: relative;
+  top: -2px;
+}
+
+.weather-forecast {
+  color: var(--primary-color-light);
+  text-align: center;
+}
+
+.day {
+  font-size: 15px;
+  line-height: 0;
+}
+
+.small-icon {
+  width: 80px;
+}
+
+.temp-day {
+  color: var(--primary-color-light);
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.celsius-link,
+.fahrenheit-link {
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  top: -33px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.celsius-link:hover,
+.fahrenheit-link:hover {
+  color: var(--primary-color-dark);
+  transition: all 500ms ease-in-out;
+}
+
+.celsius-link:focus,
+.fahrenheit-link:focus {
+  color: var(--primary-color-dark);
+  text-decoration: none;
+}
